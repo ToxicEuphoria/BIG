@@ -1,3 +1,9 @@
+@media (min-width: 481px) {
+	.sep{
+		display:block;
+	}
+}
+
 @media (min-width: 600px) {
   #headerwrap h1 {
 	width: 586px;
@@ -6,12 +12,25 @@
   #headerwrap h5 {
   	display: block;
   }
+  #desktopLogo, #topRight a  {
+  	display:inline;
+  }
+  #mobileLogo {
+  	display:none;
+  }
 }
 /*ipad resolution*/
 @media (min-width: 768px) {
+  #testimonialGrey .mt{
+  	margin: 0;
+  }
+  .img-responsive{
+  	max-width: 400px;
+  }
   .facet_sidebar {
     display: none;
   }
+  .graphDescription
 }
 
 @media (min-width: 900px) {
@@ -27,6 +46,10 @@
 	.responsive-container {
 		margin-bottom: 40px;
 	}
+	.noMarginLeft:last-child{
+	  	padding-left: 20px;
+	  	margin-right: 0px;
+	  }
 	#headerwrap{
 		padding:150px 0px;
 		height: 750px;
