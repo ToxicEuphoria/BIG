@@ -10,6 +10,10 @@
 /* ==========================================================================
    My Styles
    ========================================================================== */
+#processWrapper {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
 .noMarginLeft {
 	margin-left: 0;
 	padding-left: 0;
@@ -438,9 +442,10 @@ h1, h2, h3, h4, h5, h6 {
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
-	height: 450px;
+	height: 350px;
+	background-size: 153%;
 	position: relative;
-	display:none;
+	display: none;
 }
 .about {
 	background-image: url(../img/back.jpg);
@@ -457,6 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 50px;
+	padding: 0 20px;
 }
 .mt {
 	margin-top: 50px;
@@ -466,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 60px;
 }
 
-#portfoliowrap i {
+#portfoliowrap i, #processWrapper i {
 	font-size: 50px;
 }
 
