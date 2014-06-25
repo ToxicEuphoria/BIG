@@ -115,6 +115,10 @@
 #setWidth{
 	margin:-10px 0 0 0;
 }
+#setWidth img{
+	margin-top:-27px;
+	width: 100%;
+}
 /* ==========================================================================
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
@@ -457,12 +461,26 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
+/* For Chart.js canvas*/
+#portfoliowrap canvas{
+    width: 100% !important;
+    max-width: 1200px;
+    height: auto !important;
+}
+
+#portfoliowrap .graph img{
+	width: 100%;
+}
 
 #portfoliowrap h1 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 50px;
 	padding: 0 20px;
+}
+#portfoliowrap h6 {
+	text-align: center;
+	color: rgb(83, 145, 226);
 }
 .mt {
 	margin-top: 50px;
