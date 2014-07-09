@@ -28,9 +28,8 @@
   }
   #desktopLogo, #topRight a  {
   	display:inline;
-  }
-  #mobileLogo {
-  	display:none;
+  	font-size: 12px;
+  	letter-spacing: 5px;
   }
 }
 /*ipad resolution*/

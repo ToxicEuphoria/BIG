@@ -18,16 +18,18 @@
 	margin-left: 0;
 	padding-left: 0;
 }
+.noPadding {
+	padding: 0;
+}
 #desktopLogo, #topRight a {
 	color: white;
 	font-family: sans-serif;
 	opacity: .6;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-stretch: 3;
 	padding: 0 23px;
 	font-size: 12px;
 	font-weight: 600;
-	display:none;
 }
 #mobileLogo {
 	color: white;
@@ -81,6 +83,7 @@
 	background-color: rgba(22, 23, 26, 0.9);
 	padding-top: 14px;
 	height: 48px;
+	margin-top: -2px;
 }
 #topNav ul{
 	list-style: none;
@@ -506,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-	background-image: url(../img/portfolio-sep.jpg);
+	background-image: url(../img/streetTaxi.jpg);
 }
 
 /* Service Wrap */
@@ -520,6 +523,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+#servicewrap h3 {
+	padding: 0 40px;
 }
 
 .service {
@@ -550,6 +557,42 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #f3f3f3;
 }
 
+/* GraphKey */
+.graphKey{
+	text-align: center;
+	padding: 0 30px;
+}
+.keyTitle{
+	color: white;
+	text-shadow: 1px 1px 9px #000;
+}
+.keyInfo{
+	color: rgb(75, 73, 73);
+}
+.graphKey ul{
+	padding: 0;
+	list-style: none;
+}
+
+.graphKey li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#portfolioKey {
+	background-color: rgba(51, 102, 204, 0.6);
+}
+#timeKey {
+	background-color: rgba(220, 57, 18, 0.0);
+}
+#mutualKey {
+	background-color: rgba(255, 153, 0, 0.6);
+}
+#savingsKey {
+	background-color: rgba(16, 150, 24, 0.6);
+}
+
+
+
 /* Contact Wrap */
 #contactwrap {
 	background-color: #2f2f2f;
@@ -567,7 +610,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/bridge.jpg);
 }
 
 #contactwrap label {
